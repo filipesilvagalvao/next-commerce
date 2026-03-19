@@ -1,0 +1,20 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    object-fit: cover;
+    max-width: 500px;
+    background-color: var(--bg-color-1);
+    aspect-ratio: 9/12;
+    object-fit: cover;
+    padding: 15px;
+    color: var(--text-color-1);
+    button{
+        background-color: var(--bg-color-2);
+        color: var(--text-color-2);
+        text-align: center;
+        padding: 10px 3.5px;
+        border: none;
+        border-radius: 5px;
+    }
+}
